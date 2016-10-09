@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Job search suit">
+	<test name="Find job">
+		<parameter name="baseURL"  value="https://www.tut.by/"/>
+		<parameter name="searchString"  value="Специалист по тестированию"/>
+		<parameter name="section"  value="Работа"/>
+		<classes>
+			<class name="tests.job_search"></class>
+		</classes>
+	</test>
+</suite>
